@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515F5A6020FC75B000477CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A5F20FC75B000477CDD /* AppDelegate.m */; };
+		515F5A6320FC75B000477CDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A6220FC75B000477CDD /* ViewController.m */; };
+		515F5A6620FC75B000477CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515F5A6420FC75B000477CDD /* Main.storyboard */; };
+		515F5A6820FC75B200477CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515F5A6720FC75B200477CDD /* Assets.xcassets */; };
+		515F5A6B20FC75B200477CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515F5A6920FC75B200477CDD /* LaunchScreen.storyboard */; };
+		515F5A6E20FC75B200477CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A6D20FC75B200477CDD /* main.m */; };
+		515F5A7820FC75B200477CDD /* HSFTimeDownViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A7720FC75B200477CDD /* HSFTimeDownViewDemoTests.m */; };
+		515F5A8320FC75B200477CDD /* HSFTimeDownViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A8220FC75B200477CDD /* HSFTimeDownViewDemoUITests.m */; };
+		515F5A9720FC76C000477CDD /* HSFTimeDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A9320FC76C000477CDD /* HSFTimeDownView.m */; };
+		515F5A9820FC76C000477CDD /* HSFTimeDownConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A9420FC76C000477CDD /* HSFTimeDownConfig.m */; };
+		515F5A9920FC76C000477CDD /* HSFTimeNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515F5A9520FC76C000477CDD /* HSFTimeNumberView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515F5A7420FC75B200477CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515F5A5320FC75B000477CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515F5A5A20FC75B000477CDD;
+			remoteInfo = HSFTimeDownViewDemo;
+		};
+		515F5A7F20FC75B200477CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515F5A5320FC75B000477CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515F5A5A20FC75B000477CDD;
+			remoteInfo = HSFTimeDownViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515F5A5B20FC75B000477CDD /* HSFTimeDownViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSFTimeDownViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F5A5E20FC75B000477CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		515F5A5F20FC75B000477CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		515F5A6120FC75B000477CDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		515F5A6220FC75B000477CDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		515F5A6520FC75B000477CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515F5A6720FC75B200477CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515F5A6A20FC75B200477CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515F5A6C20FC75B200477CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515F5A6D20FC75B200477CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515F5A7320FC75B200477CDD /* HSFTimeDownViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSFTimeDownViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F5A7720FC75B200477CDD /* HSFTimeDownViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSFTimeDownViewDemoTests.m; sourceTree = "<group>"; };
+		515F5A7920FC75B200477CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515F5A7E20FC75B200477CDD /* HSFTimeDownViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSFTimeDownViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515F5A8220FC75B200477CDD /* HSFTimeDownViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSFTimeDownViewDemoUITests.m; sourceTree = "<group>"; };
+		515F5A8420FC75B200477CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515F5A9120FC76C000477CDD /* HSFTimeDownConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFTimeDownConfig.h; sourceTree = "<group>"; };
+		515F5A9220FC76C000477CDD /* HSFTimeNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFTimeNumberView.h; sourceTree = "<group>"; };
+		515F5A9320FC76C000477CDD /* HSFTimeDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFTimeDownView.m; sourceTree = "<group>"; };
+		515F5A9420FC76C000477CDD /* HSFTimeDownConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFTimeDownConfig.m; sourceTree = "<group>"; };
+		515F5A9520FC76C000477CDD /* HSFTimeNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFTimeNumberView.m; sourceTree = "<group>"; };
+		515F5A9620FC76C000477CDD /* HSFTimeDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFTimeDownView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515F5A5820FC75B000477CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F5A7020FC75B200477CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F5A7B20FC75B200477CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515F5A5220FC75B000477CDD = {
+			isa = PBXGroup;
+			children = (
+				515F5A5D20FC75B000477CDD /* HSFTimeDownViewDemo */,
+				515F5A7620FC75B200477CDD /* HSFTimeDownViewDemoTests */,
+				515F5A8120FC75B200477CDD /* HSFTimeDownViewDemoUITests */,
+				515F5A5C20FC75B000477CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515F5A5C20FC75B000477CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515F5A5B20FC75B000477CDD /* HSFTimeDownViewDemo.app */,
+				515F5A7320FC75B200477CDD /* HSFTimeDownViewDemoTests.xctest */,
+				515F5A7E20FC75B200477CDD /* HSFTimeDownViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515F5A5D20FC75B000477CDD /* HSFTimeDownViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				515F5A9020FC76C000477CDD /* HSFTimeDownView(动画倒计时) */,
+				515F5A5E20FC75B000477CDD /* AppDelegate.h */,
+				515F5A5F20FC75B000477CDD /* AppDelegate.m */,
+				515F5A6120FC75B000477CDD /* ViewController.h */,
+				515F5A6220FC75B000477CDD /* ViewController.m */,
+				515F5A6420FC75B000477CDD /* Main.storyboard */,
+				515F5A6720FC75B200477CDD /* Assets.xcassets */,
+				515F5A6920FC75B200477CDD /* LaunchScreen.storyboard */,
+				515F5A6C20FC75B200477CDD /* Info.plist */,
+				515F5A6D20FC75B200477CDD /* main.m */,
+			);
+			path = HSFTimeDownViewDemo;
+			sourceTree = "<group>";
+		};
+		515F5A7620FC75B200477CDD /* HSFTimeDownViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				515F5A7720FC75B200477CDD /* HSFTimeDownViewDemoTests.m */,
+				515F5A7920FC75B200477CDD /* Info.plist */,
+			);
+			path = HSFTimeDownViewDemoTests;
+			sourceTree = "<group>";
+		};
+		515F5A8120FC75B200477CDD /* HSFTimeDownViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				515F5A8220FC75B200477CDD /* HSFTimeDownViewDemoUITests.m */,
+				515F5A8420FC75B200477CDD /* Info.plist */,
+			);
+			path = HSFTimeDownViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		515F5A9020FC76C000477CDD /* HSFTimeDownView(动画倒计时) */ = {
+			isa = PBXGroup;
+			children = (
+				515F5A9120FC76C000477CDD /* HSFTimeDownConfig.h */,
+				515F5A9420FC76C000477CDD /* HSFTimeDownConfig.m */,
+				515F5A9620FC76C000477CDD /* HSFTimeDownView.h */,
+				515F5A9320FC76C000477CDD /* HSFTimeDownView.m */,
+				515F5A9220FC76C000477CDD /* HSFTimeNumberView.h */,
+				515F5A9520FC76C000477CDD /* HSFTimeNumberView.m */,
+			);
+			path = "HSFTimeDownView(动画倒计时)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515F5A5A20FC75B000477CDD /* HSFTimeDownViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515F5A8720FC75B200477CDD /* Build configuration list for PBXNativeTarget "HSFTimeDownViewDemo" */;
+			buildPhases = (
+				515F5A5720FC75B000477CDD /* Sources */,
+				515F5A5820FC75B000477CDD /* Frameworks */,
+				515F5A5920FC75B000477CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSFTimeDownViewDemo;
+			productName = HSFTimeDownViewDemo;
+			productReference = 515F5A5B20FC75B000477CDD /* HSFTimeDownViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		515F5A7220FC75B200477CDD /* HSFTimeDownViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515F5A8A20FC75B200477CDD /* Build configuration list for PBXNativeTarget "HSFTimeDownViewDemoTests" */;
+			buildPhases = (
+				515F5A6F20FC75B200477CDD /* Sources */,
+				515F5A7020FC75B200477CDD /* Frameworks */,
+				515F5A7120FC75B200477CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515F5A7520FC75B200477CDD /* PBXTargetDependency */,
+			);
+			name = HSFTimeDownViewDemoTests;
+			productName = HSFTimeDownViewDemoTests;
+			productReference = 515F5A7320FC75B200477CDD /* HSFTimeDownViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		515F5A7D20FC75B200477CDD /* HSFTimeDownViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515F5A8D20FC75B200477CDD /* Build configuration list for PBXNativeTarget "HSFTimeDownViewDemoUITests" */;
+			buildPhases = (
+				515F5A7A20FC75B200477CDD /* Sources */,
+				515F5A7B20FC75B200477CDD /* Frameworks */,
+				515F5A7C20FC75B200477CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515F5A8020FC75B200477CDD /* PBXTargetDependency */,
+			);
+			name = HSFTimeDownViewDemoUITests;
+			productName = HSFTimeDownViewDemoUITests;
+			productReference = 515F5A7E20FC75B200477CDD /* HSFTimeDownViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515F5A5320FC75B000477CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "黄山锋";
+				TargetAttributes = {
+					515F5A5A20FC75B000477CDD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					515F5A7220FC75B200477CDD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 515F5A5A20FC75B000477CDD;
+					};
+					515F5A7D20FC75B200477CDD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 515F5A5A20FC75B000477CDD;
+					};
+				};
+			};
+			buildConfigurationList = 515F5A5620FC75B000477CDD /* Build configuration list for PBXProject "HSFTimeDownViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515F5A5220FC75B000477CDD;
+			productRefGroup = 515F5A5C20FC75B000477CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515F5A5A20FC75B000477CDD /* HSFTimeDownViewDemo */,
+				515F5A7220FC75B200477CDD /* HSFTimeDownViewDemoTests */,
+				515F5A7D20FC75B200477CDD /* HSFTimeDownViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515F5A5920FC75B000477CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5A6B20FC75B200477CDD /* LaunchScreen.storyboard in Resources */,
+				515F5A6820FC75B200477CDD /* Assets.xcassets in Resources */,
+				515F5A6620FC75B000477CDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F5A7120FC75B200477CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F5A7C20FC75B200477CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515F5A5720FC75B000477CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5A9920FC76C000477CDD /* HSFTimeNumberView.m in Sources */,
+				515F5A6320FC75B000477CDD /* ViewController.m in Sources */,
+				515F5A6E20FC75B200477CDD /* main.m in Sources */,
+				515F5A6020FC75B000477CDD /* AppDelegate.m in Sources */,
+				515F5A9820FC76C000477CDD /* HSFTimeDownConfig.m in Sources */,
+				515F5A9720FC76C000477CDD /* HSFTimeDownView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F5A6F20FC75B200477CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5A7820FC75B200477CDD /* HSFTimeDownViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515F5A7A20FC75B200477CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515F5A8320FC75B200477CDD /* HSFTimeDownViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515F5A7520FC75B200477CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515F5A5A20FC75B000477CDD /* HSFTimeDownViewDemo */;
+			targetProxy = 515F5A7420FC75B200477CDD /* PBXContainerItemProxy */;
+		};
+		515F5A8020FC75B200477CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515F5A5A20FC75B000477CDD /* HSFTimeDownViewDemo */;
+			targetProxy = 515F5A7F20FC75B200477CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		515F5A6420FC75B000477CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515F5A6520FC75B000477CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515F5A6920FC75B200477CDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515F5A6A20FC75B200477CDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515F5A8520FC75B200477CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		515F5A8620FC75B200477CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515F5A8820FC75B200477CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HSFTimeDownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HSFClub.HSFTimeDownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515F5A8920FC75B200477CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HSFTimeDownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HSFClub.HSFTimeDownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		515F5A8B20FC75B200477CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HSFTimeDownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HSFClub.HSFTimeDownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSFTimeDownViewDemo.app/HSFTimeDownViewDemo";
+			};
+			name = Debug;
+		};
+		515F5A8C20FC75B200477CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HSFTimeDownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HSFClub.HSFTimeDownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSFTimeDownViewDemo.app/HSFTimeDownViewDemo";
+			};
+			name = Release;
+		};
+		515F5A8E20FC75B200477CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HSFTimeDownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HSFClub.HSFTimeDownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSFTimeDownViewDemo;
+			};
+			name = Debug;
+		};
+		515F5A8F20FC75B200477CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HSFTimeDownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HSFClub.HSFTimeDownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSFTimeDownViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515F5A5620FC75B000477CDD /* Build configuration list for PBXProject "HSFTimeDownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F5A8520FC75B200477CDD /* Debug */,
+				515F5A8620FC75B200477CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515F5A8720FC75B200477CDD /* Build configuration list for PBXNativeTarget "HSFTimeDownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F5A8820FC75B200477CDD /* Debug */,
+				515F5A8920FC75B200477CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515F5A8A20FC75B200477CDD /* Build configuration list for PBXNativeTarget "HSFTimeDownViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F5A8B20FC75B200477CDD /* Debug */,
+				515F5A8C20FC75B200477CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515F5A8D20FC75B200477CDD /* Build configuration list for PBXNativeTarget "HSFTimeDownViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515F5A8E20FC75B200477CDD /* Debug */,
+				515F5A8F20FC75B200477CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515F5A5320FC75B000477CDD /* Project object */;
+}
